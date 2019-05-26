@@ -1,0 +1,11 @@
+function fib(n) { 
+    if (n <= 1) {
+       return n; 
+	}
+	else{  
+	     var n1 = fib(n-1);
+	     var n2 = fib(n-2);
+	     return n1+n2; 
+    }
+} 
+println(fib(15)); 

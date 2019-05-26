@@ -1,0 +1,5 @@
+function main(a,b,c){
+	println("this variable is not defined, but we will try anyways");
+	println(d);
+}
+main(1,2,3);

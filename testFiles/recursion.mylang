@@ -1,0 +1,12 @@
+function loop(n) { 
+    if (n <= 1) {
+       return n; 
+	}
+	else{  
+		println("n is: "+n);
+		var result= n-1;
+    	loop(result);
+	}
+}
+ 
+println(loop(15)); 

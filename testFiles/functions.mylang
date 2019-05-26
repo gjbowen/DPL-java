@@ -1,0 +1,24 @@
+println("Example per beastie site on first class and lambda functions");
+
+function f(x){
+	lambda(y){ 
+		return x+y;
+	}
+}
+
+var a = f(3);
+var b = f(11);
+
+println("a(5) is "+a(5));
+println("b(6) is "+b(6));
+println("a(10) is "+a(10));
+
+function main(){
+	return 0;
+}
+var x = main();
+
+if(x==0){
+	println("ALL DONE HERE!!");
+}
+

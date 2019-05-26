@@ -1,0 +1,5 @@
+var x=0;
+while(x<100){
+	println() 		#wheres the semi??
+	++x;
+}

@@ -1,0 +1,22 @@
+var x=90;
+println("Grade letter..");
+if(x>=90){
+	if(x==100){
+		println("PERFECT!!");
+	}
+	else{
+		println("A - WOW!!!");
+	}
+}
+else if(x>=80){
+	println("B - good job!");
+}
+else if(x>=70){
+	println("C - that'll do..");
+}
+else if(x>=60){
+	println("D - could be worse..");
+}
+else {
+	println("F!! :( ");
+}

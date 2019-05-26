@@ -1,0 +1,19 @@
+var x = [1,2,3,4,5,6,7,8,9,null];
+println("integers: " + x);
+
+var count = 0;
+while(x[count]!=null){
+	println("x[" + count + "] = " + x[count]);
+	++count;
+}
+println();
+println("setting all to 0..");
+count=0;
+println();
+
+while(x[count]!=null){
+	x[count]=0;
+	println("x[" + count + "] = " + x[count]);
+	++count;
+}
+println(x);

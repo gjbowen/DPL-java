@@ -1,0 +1,8 @@
+function node (value,nextValue){
+	this;
+}
+
+var n=node(5,null);
+
+println("n.value: "+n.value);
+println("n.nextValue: "+n.nextValue);

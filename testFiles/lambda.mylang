@@ -1,0 +1,11 @@
+function powerOf(x){
+	lambda(z){ 
+		return x^z;
+	}
+}
+var a = powerOf(5);
+var b = powerOf(10);
+
+println("a(5) is "+a(5));
+println("b(6) is "+b(6));
+println("a(10) is "+a(10));

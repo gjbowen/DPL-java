@@ -1,0 +1,15 @@
+############################
+##	Greg Bowen
+##	gjbowen@crimson.ua.edu
+############################
+All commands were tested successfully
+Command line arguments are accessible just as they would be in java: args[1] 
+
+The syntax is fairly standard java script
+# comments are with a hash.
+keywords to note:
+	args
+	EOF
+	next
+	close
+
