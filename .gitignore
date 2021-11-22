@@ -1,4 +1,5 @@
 /out
 /*.iml
 out
-.idea
+/.idea/
+/out/
